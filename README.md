@@ -10,6 +10,7 @@
 
 * Names & Emails: 
 Sean (sean0262@gmail.com)
+Nicklas (nicklasbrichs@hotmail.com)
 
 * Programmers: 
 
