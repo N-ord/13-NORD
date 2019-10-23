@@ -8,7 +8,8 @@
 
 * Team Nord - 13
 
-* Names & Emails: Sean <sean0262@gmail.com>
+* Names & Emails: 
+Sean (sean0262@gmail.com)
 
 * Programmers: 
 
