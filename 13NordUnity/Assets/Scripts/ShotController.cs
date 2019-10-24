@@ -5,10 +5,10 @@ using UnityEngine;
 public class ShotController : MonoBehaviour
 {
     [SerializeField]
-    bool MoveLeft;
+    bool MoveLeft = false;
 
     [SerializeField]
-    float Speed;
+    float Speed = 0;
 
     // Update is called once per frame
     void Update()

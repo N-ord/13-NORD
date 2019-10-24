@@ -86,12 +86,4 @@ public class PlayerController : MonoBehaviour {
 
         ShootTransform = transform.GetChild(0);
     }
-
-    private void OnDrawGizmosSelected() {
-        if (ShootTransform == null) {
-            ShootTransform = transform.GetChild(0);
-        }
-        Gizmos.color = Color.red;
-        Gizmos.DrawCube(ShootTransform.position, Vector3.one);
-    }
 }
