@@ -33,9 +33,9 @@ public class Destructible : MonoBehaviour {
             if (gameObject.tag == "Enemy") {
                 DropChance(true, myCol);
                 
-                Destroy(gameObject); /*Destroy the enemy, or whatever you put this stript on*/
+               Destroy(gameObject); /*Destroy the enemy, or whatever you put this stript on*/
             }
-            Destroy(myCol.gameObject); /*Destroy the projectile*/
+           Destroy(myCol.gameObject); /*Destroy the projectile*/
         }
     }
 
