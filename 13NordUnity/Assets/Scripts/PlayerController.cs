@@ -86,9 +86,9 @@ public class PlayerController : MonoBehaviour {
 
         MoveDelta = MoveDelta.normalized;
 
-        transform.position = Vector3.Lerp(transform.position, new Vector3(MoveDelta.x, MoveDelta.y, 0) * speed + transform.position, Time.deltaTime);
+        //lerp towards the target position
+        transform.position = Vector3.Lerp(transform.position, (new Vector3(MoveDelta.x, MoveDelta.y, 0) * speed) + transform.position, Time.deltaTime);
 
-//        transform.position += new Vector3(MoveDelta.x, MoveDelta.y, 0) * speed * Time.deltaTime;
     }
 
     private void OnEnable() {
