@@ -93,4 +93,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MoveLeft: 0
-  Speed: 1
+  Speed: 10

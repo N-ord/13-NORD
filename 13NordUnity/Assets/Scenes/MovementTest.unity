@@ -429,7 +429,8 @@ MonoBehaviour:
     type: 3}
   ChargeShot: {fileID: 0}
   ShootTransform: {fileID: 539611003}
-  speed: 1
+  ShootDelay: 0.5
+  speed: 5
 --- !u!60 &1678365663
 PolygonCollider2D:
   m_ObjectHideFlags: 0

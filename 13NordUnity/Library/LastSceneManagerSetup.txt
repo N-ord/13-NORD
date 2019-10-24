@@ -1,9 +1,5 @@
 sceneSetups:
-<<<<<<< HEAD
 - path: Assets/Scenes/MovementTest.unity
-=======
-- path: Assets/MovementTest.unity
->>>>>>> master
   isLoaded: 1
   isActive: 1
   isSubScene: 0

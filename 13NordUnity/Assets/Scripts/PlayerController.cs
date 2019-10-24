@@ -17,7 +17,6 @@ public class PlayerController : MonoBehaviour {
     public KeyCode ShootKey = KeyCode.Space;
     public KeyCode ChangeShotType = KeyCode.Tab;
 
-
     ShotType shotType = ShotType.Normal;
 
     public Vector2 StartPos;
@@ -27,6 +26,9 @@ public class PlayerController : MonoBehaviour {
 
     [SerializeField]
     Transform ShootTransform;
+
+    float ShootDelayCurrent = 1;
+    public float ShootDelay = 1;
 
     public float speed;
 
@@ -39,8 +41,11 @@ public class PlayerController : MonoBehaviour {
     void Update() {
 
         UpdatePos();
-        if (Input.GetKey(ShootKey)) {
+        if (Input.GetKey(ShootKey) && ShootDelayCurrent < 0) {
             Shoot();
+        }
+        if (ShootDelayCurrent > 0) {
+            ShootDelayCurrent -= Time.deltaTime;
         }
     }
 
@@ -48,10 +53,12 @@ public class PlayerController : MonoBehaviour {
 
         switch (shotType) {
             case ShotType.Normal:
-                Instantiate(NormalShot);
+                Instantiate(NormalShot, ShootTransform.position, Quaternion.identity);
+                ShootDelayCurrent = ShootDelay;
                 break;
             case ShotType.Charge:
                 Instantiate(ChargeShot);
+                ShootDelayCurrent = ShootDelay;
                 break;
             default:
                 break;
@@ -79,7 +86,9 @@ public class PlayerController : MonoBehaviour {
 
         MoveDelta = MoveDelta.normalized;
 
-        transform.position += new Vector3(MoveDelta.x, MoveDelta.y, 0) * speed * Time.deltaTime;
+        transform.position = Vector3.Lerp(transform.position, new Vector3(MoveDelta.x, MoveDelta.y, 0) * speed + transform.position, Time.deltaTime);
+
+//        transform.position += new Vector3(MoveDelta.x, MoveDelta.y, 0) * speed * Time.deltaTime;
     }
 
     private void OnEnable() {
