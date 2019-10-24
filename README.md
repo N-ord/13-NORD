@@ -1,6 +1,6 @@
 # 13_NORD
 
-* Instructions:</p>
+* Instructions <br>
 W - Up
 A - Left
 S - Down
