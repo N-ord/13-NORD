@@ -67,3 +67,9 @@ crashlytics-build.properties
 */Library/CurrentLayout\.dwlt
 
 *.dwlt
+
+13NordUnity/Library/ScriptAssemblies/Assembly-CSharp.dll
+
+*.log
+
+13NordUnity/Library/LastSceneManagerSetup.txt
