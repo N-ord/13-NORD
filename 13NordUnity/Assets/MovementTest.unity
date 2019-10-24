@@ -366,6 +366,7 @@ GameObject:
   - component: {fileID: 1678365660}
   - component: {fileID: 1678365662}
   - component: {fileID: 1678365663}
+  - component: {fileID: 1678365664}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -458,6 +459,7 @@ MonoBehaviour:
   NormalShot: {fileID: 0}
   ChargeShot: {fileID: 0}
   ShootTransform: {fileID: 539611003}
+  ShootDelay: 1
   speed: 1
 --- !u!60 &1678365663
 PolygonCollider2D:
@@ -490,6 +492,23 @@ PolygonCollider2D:
       - {x: 0.08, y: -0.06}
       - {x: 0.08, y: 0.07}
       - {x: 0.055, y: 0.08}
+--- !u!114 &1678365664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1678365659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 482f2c1be08c7cc47a46dbea11711f40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tagName: Projectiles
+  powerup1: {fileID: 4947058525413816104, guid: 23c244fd0a3bd70478d96e7da8a95dc4,
+    type: 3}
+  powerup2: {fileID: 4428676047152349177, guid: 913a5b864a4b2b54fa137e7f9d801eb7,
+    type: 3}
 --- !u!1 &1740829017
 GameObject:
   m_ObjectHideFlags: 0
@@ -582,4 +601,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2d3d98330b197a419928cfafd561366, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MoveLeft: 0
   Speed: 1
