@@ -15,11 +15,11 @@ public class ShotController : MonoBehaviour
     {
         if (MoveLeft) {
 
-        this.transform.position += Vector3.left * Speed * Time.deltaTime;
+            transform.position += Vector3.left * Speed * Time.deltaTime;
         }
         else {
 
-        this.transform.position += Vector3.right * Speed * Time.deltaTime;
+            transform.position += Vector3.right * Speed * Time.deltaTime;
         }
 
     }
