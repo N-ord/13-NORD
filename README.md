@@ -6,11 +6,13 @@
 
 * Game Name
 
+
 * Team Nord - 13
 
 * Names & Emails: 
 Sean (sean0262@gmail.com)
 Nicklas (nicklasbrichs@hotmail.com)
+Gustav (gustavhaavik@gmail.com)
 
 * Programmers: 
 
