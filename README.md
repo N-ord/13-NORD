@@ -1,10 +1,11 @@
 # 13_NORD
 
-* Instructions
+* Instructions:
 
-* Description
+* Description:
+Player starts in the desert (as a naruto runner, kyle etc), player will have to fight his way through the military to get to area51. The player will enter area51 where there can be discovered aliens and more military which the player has to fight through, the player will then exit in a UFO in which the player will fly back to the start location.
 
-* Game Name
+* Game Name:
 The Great Attack (suggestion)
 
 * Team Nord - 13
@@ -28,4 +29,4 @@ Christoffer Kjær
 Frederik
 Emil
 
-* Screenshots
+* Screenshots:
