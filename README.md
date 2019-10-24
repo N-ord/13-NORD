@@ -1,12 +1,19 @@
 # 13_NORD
 
 * Instructions:
+W - Up
+A - Left
+S - Down
+D - Right
+Space - Shoot
+
 
 * Description:
-Player starts in the desert (as a naruto runner, kyle etc), player will have to fight his way through the military to get to area51. The player will enter area51 where there can be discovered aliens and more military which the player has to fight through, the player will then exit in a UFO in which the player will fly back to the start location.
+THe player starts in the desert (as an alien), player will have to fight its way through the military to get to area51. The player will enter area51 where there will be aliens friends to rescue and more military which the player has to fight through, to then fly back out of area51 and the dessert in which the player came from.
 
 * Game Name:
 The Great Attack (suggestion)
+The Ultimate Guide To Aliens (suggestion)
 
 * Team Nord - 13
 
@@ -23,10 +30,11 @@ Thomas Grytter
 Sean Wiik
 Lasse Fjellanger
 
-* Art/Design: 
+* Art/Designers: 
 Tobias Therkildsen
 Christoffer Kjær
 Frederik
 Emil
+
 
 * Screenshots:
