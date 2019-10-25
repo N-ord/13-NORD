@@ -1,32 +1,39 @@
 # 13_NORD
 
-* Instructions:
+* Instructions: <br>
+W - Up <br>
+A - Left <br>
+S - Down <br>
+D - Right <br>
+Space - Shoot
 
-* Description:
-Player starts in the desert (as a naruto runner, kyle etc), player will have to fight his way through the military to get to area51. The player will enter area51 where there can be discovered aliens and more military which the player has to fight through, the player will then exit in a UFO in which the player will fly back to the start location.
+* Description: <br>
+The player starts in the desert (as an alien), player will have to fight its way through the military to get to area51. The player will enter area51 where there will be aliens friends to rescue and more military which the player has to fight through, to then fly back out of area51 and the dessert in which the player came from.
 
-* Game Name:
-The Great Attack (suggestion)
+* Game Name: <br>
+The Great Attack (suggestion) <br>
+The Ultimate Guide To Aliens (suggestion)
 
 * Team Nord - 13
 
-* Names & Emails: 
-Sean (sean0262@gmail.com)
-Nicklas (nicklasbrichs@hotmail.com)
-Gustav (gustavhaavik@gmail.com)
+* Names & Emails: <br>
+Sean (sean0262@gmail.com) <br>
+Nicklas (nicklasbrichs@hotmail.com) <br>
+Gustav (gustavhaavik@gmail.com) <br>
 Christoffer Kjær (Christofferdk@live.dk)
 
-* Programmers: 
-Gustav Haavik
-Nicklas Brichs
-Thomas Grytter
-Sean Wiik
+* Programmers: <br>
+Gustav Haavik <br>
+Nicklas Brichs <br>
+Thomas Grytter <br>
+Sean Wiik <br>
 Lasse Fjellanger
 
-* Art/Design: 
-Tobias Therkildsen
-Christoffer Kjær
-Frederik
+* Art/Designers: <br>
+Tobias Therkildsen <br>
+Christoffer Kjær <br>
+Frederik <br>
 Emil
+
 
 * Screenshots:
