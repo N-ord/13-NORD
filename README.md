@@ -47,3 +47,8 @@ Emil Mortensen
 
 
 * Screenshots:
+https://gyazo.com/dd40b0ef13c44550d3f289cf6e019fae
+https://gyazo.com/f665e15388c29da7b7ba7aef653ca715
+https://gyazo.com/c5d651b176359c383d5f00691fe479c0
+https://gyazo.com/7ec9daeb32cdab32b348bd7d275c6780
+https://gyazo.com/a3f2b2c19d73bb78ea770edd6054fdc9
