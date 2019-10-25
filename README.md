@@ -12,7 +12,7 @@ UFO Speed Boost <br>
 UFO Attack Speed Boost
 
 * Description: <br>
-It's a flat 2D game, in which you can move up, down, left and right, but only inside the square of the game. The game has sidescrolling, and includes the theme "area51" and the mechanic "One Hit Death". <br>
+It's a flat 2D game, in which you can move up, down, left and right, but only inside the square of the game. The game has enemy-sidescrolling, and includes the theme "area51" and the mechanic "One Hit Death". <br>
 The player starts in the desert (as an alien inside a UFO), player will have to fight its way through the military to get to area51.
 
 * Game Name: <br>
@@ -47,8 +47,3 @@ Emil Mortensen
 
 
 * Screenshots:
-https://gyazo.com/dd40b0ef13c44550d3f289cf6e019fae
-https://gyazo.com/f665e15388c29da7b7ba7aef653ca715
-https://gyazo.com/c5d651b176359c383d5f00691fe479c0
-https://gyazo.com/7ec9daeb32cdab32b348bd7d275c6780
-https://gyazo.com/a3f2b2c19d73bb78ea770edd6054fdc9
