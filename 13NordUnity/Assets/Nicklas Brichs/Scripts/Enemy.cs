@@ -8,13 +8,13 @@ public class Enemy : MonoBehaviour
 
     public float movespeed;
     float destroyTimer = 10f;
-    public Rigidbody enemyRb;
+    public Rigidbody2D enemyRb;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        enemyRb = GetComponent<Rigidbody>();
+        enemyRb = GetComponent<Rigidbody2D>();
         movespeed = Random.Range(8f, 13f);
        
     }
@@ -22,7 +22,7 @@ public class Enemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        enemyRb.velocity = new Vector3(-movespeed, enemyRb.velocity.y, enemyRb.velocity.z);
+        enemyRb.velocity = new Vector2(-movespeed, enemyRb.velocity.y);
 
 
         destroyTimer -= 1f * Time.deltaTime;
@@ -33,12 +33,18 @@ public class Enemy : MonoBehaviour
 
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
         if(other.tag ==("Player"))
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
+
+        if(other.tag ==("Projectile"))
+        {
+            Destroy(gameObject);
+        }
+
     }
 
 }
