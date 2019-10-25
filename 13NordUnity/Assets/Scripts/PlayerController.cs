@@ -95,4 +95,21 @@ public class PlayerController : MonoBehaviour {
 
         ShootTransform = transform.GetChild(0);
     }
+
+    void OnCollisionEnter2D(Collision2D Col) { 
+        if(Col.gameObject.tag == "PowerUp1") {
+            Debug.Log("POWERUP HIT: " + Col.gameObject.tag);
+            ShootDelay = 0.2f;
+            StartCoroutine(Waitt(4));
+            Destroy(Col.gameObject);
+        }
+    }
+
+    private IEnumerator Waitt(float waitTime) {
+        while (true) {
+            yield return new WaitForSeconds(waitTime);
+            ShootDelay = 0.5f;
+        }
+    }
+
 }
