@@ -13,7 +13,6 @@ UFO Attack Speed Boost
 
 * Description: <br>
 It's a flat 2D game, in which you can move up, down, left and right, but only inside the square of the game. The game has sidescrolling, and includes the theme "area51" and the mechanic "One Hit Death". <br>
-<br>
 The player starts in the desert (as an alien inside a UFO), player will have to fight its way through the military to get to area51.
 
 * Game Name: <br>
