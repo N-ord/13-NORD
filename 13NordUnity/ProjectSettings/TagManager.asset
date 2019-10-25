@@ -8,7 +8,8 @@ TagManager:
   - Projectile
   - Enemy
   - Crate
-  - PowerUp
+  - PowerUp1
+  - PowerUp2
   layers:
   - Default
   - TransparentFX
