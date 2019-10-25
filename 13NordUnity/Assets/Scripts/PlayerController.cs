@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 enum ShotType {
     Normal,
@@ -98,17 +99,37 @@ public class PlayerController : MonoBehaviour {
 
     void OnCollisionEnter2D(Collision2D Col) { 
         if(Col.gameObject.tag == "PowerUp1") {
-            Debug.Log("POWERUP HIT: " + Col.gameObject.tag);
             ShootDelay = 0.2f;
-            StartCoroutine(Waitt(4));
+            StartCoroutine(WaitShot(4));
             Destroy(Col.gameObject);
+        } if (Col.gameObject.tag == "PowerUp2") {
+            speed = 10;
+            StartCoroutine(WaitSpeed(4));
+            Destroy(Col.gameObject);
+        } if (Col.gameObject.tag == "Enemy") {
+            Destroy(gameObject);
+            StartCoroutine(EndingScreen(3));
         }
     }
 
-    private IEnumerator Waitt(float waitTime) {
+    private IEnumerator WaitShot(float waitTime) {
         while (true) {
             yield return new WaitForSeconds(waitTime);
             ShootDelay = 0.5f;
+        }
+    }
+
+    private IEnumerator WaitSpeed(float waitTime) {
+        while (true) {
+            yield return new WaitForSeconds(waitTime);
+            speed = 5;
+        }
+    }
+
+    private IEnumerator EndingScreen(float waitTime) {
+        while (true) {
+            yield return new WaitForSeconds(waitTime);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
 
