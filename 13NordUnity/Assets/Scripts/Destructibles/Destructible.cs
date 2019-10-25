@@ -44,15 +44,18 @@ public class Destructible : MonoBehaviour {
         int temp2 = Random.Range(0, 3);
 
         if(Chance == true) { /*If it's an enemy*/
-            if (temp2 == 1)
+            if (temp2 == 1) {
                 Drop(temp, MyCol);
+            }
         }
     }
 
     void Drop(int PowerUp, Collision2D MyCol) {
-        if(PowerUp == 1)
+        if(PowerUp == 1) {
             Instantiate(powerup1, MyCol.gameObject.transform.position, Quaternion.identity);
-        else
+        }
+        else {
             Instantiate(powerup2, MyCol.gameObject.transform.position, Quaternion.identity);
+        }
     }
 }
