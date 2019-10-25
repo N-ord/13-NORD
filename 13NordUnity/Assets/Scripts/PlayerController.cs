@@ -107,7 +107,8 @@ public class PlayerController : MonoBehaviour {
             StartCoroutine(WaitSpeed(4));
             Destroy(Col.gameObject);
         } if (Col.gameObject.tag == "Enemy") {
-            Destroy(gameObject);
+            GetComponent<SpriteRenderer>().enabled = false;
+            speed = 0;
             StartCoroutine(EndingScreen(3));
         }
     }
