@@ -129,7 +129,7 @@ public class PlayerController : MonoBehaviour {
     private IEnumerator EndingScreen(float waitTime) {
         while (true) {
             yield return new WaitForSeconds(waitTime);
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            SceneManager.LoadScene("SampleScene");
         }
     }
 
