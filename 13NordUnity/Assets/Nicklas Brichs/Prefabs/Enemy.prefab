@@ -96,7 +96,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movespeed: 0
-  enemyRb: {fileID: 0}
+  enemyRb: {fileID: 8022857381865442757}
 --- !u!114 &3340104181477359312
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -109,7 +109,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 482f2c1be08c7cc47a46dbea11711f40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagName: Enemy
+  tagName: Projectile
   powerup1: {fileID: 4947058525413816104, guid: 23c244fd0a3bd70478d96e7da8a95dc4,
     type: 3}
   powerup2: {fileID: 4428676047152349177, guid: 913a5b864a4b2b54fa137e7f9d801eb7,

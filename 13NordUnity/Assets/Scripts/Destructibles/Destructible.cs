@@ -30,6 +30,7 @@ public class Destructible : MonoBehaviour {
                     Instantiate(powerup1, myCol.gameObject.transform.position, Quaternion.identity);
                 else
                     Instantiate(powerup2, myCol.gameObject.transform.position, Quaternion.identity);
+                Destroy(myCol.gameObject);
             if (gameObject.tag == "Enemy") {
                 DropChance(true, myCol);
                 
