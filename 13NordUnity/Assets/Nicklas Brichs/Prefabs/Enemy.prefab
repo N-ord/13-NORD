@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1290469157142487008}
   - component: {fileID: 4648727274220019325}
   - component: {fileID: -6708674576355100775}
+  - component: {fileID: -2724709723607729444}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -125,3 +126,20 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &-2724709723607729444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1290469157142487010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 482f2c1be08c7cc47a46dbea11711f40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tagName: Projectile
+  powerup1: {fileID: 4947058525413816104, guid: 23c244fd0a3bd70478d96e7da8a95dc4,
+    type: 3}
+  powerup2: {fileID: 4428676047152349177, guid: 913a5b864a4b2b54fa137e7f9d801eb7,
+    type: 3}
